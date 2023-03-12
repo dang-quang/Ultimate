@@ -36,7 +36,7 @@
   </head>
 
   <body onload="onIndexLoad()" style="background-color: #122332">
-    <div class="container">
+    <div class="container" style="padding-bottom: 24px">
       <div class="topbar">
         <div class="container-fluid">
           <div class="row justify-content-between" style="align-items: center">
@@ -64,78 +64,74 @@
           </div>
         </div>
       </div>
-      <div class="content">
-        <div class="container-fluid">
-          <div style="display: flex; flex-direction: row">
+      <div class="content" style="flex: 1">
+        <div style="display: flex; flex-direction: row">
+          <div style="width: 70%; border-width: 2px; border-radius: 16px; overflow: hidden">
+            <img src="img/image.png" style="width: 100%; height: 100%" />
+          </div>
+          <div style="width: 30%; display: flex; flex-direction: column; margin-left: 8px">
             <div
               style="
-                width: 70%;
-                border-width: 2px;
-                border-color: red;
+                text-align: center;
+                background-color: #2a3947;
+                height: 100%;
                 border-radius: 16px;
-                overflow: hidden;
+                padding: 8px;
               ">
-              <img src="img/image.png" style="width: 100%; height: auto" />
-            </div>
-            <div style="width: 30%; display: flex; flex-direction: column; margin-left: 8px">
-              <div
-                style="
-                  text-align: center;
-                  background-color: #2a3947;
-                  height: 100%;
-                  border-radius: 16px;
-                  padding: 8px;
-                ">
-                <div style="border-radius: 12px; overflow: hidden">
-                  <img src="img/ios.png" style="width: 100%; height: auto" />
-                </div>
-                <div
-                  style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 16px;
-                  ">
-                  <img src="img/ios_logo.png" style="width: 32px; height: 32px" />
-                  <p style="color: white; font-size: 20px; font-weight: bold">iOS Scan</p>
-                </div>
+              <div style="border-radius: 12px; overflow: hidden">
+                <img src="img/ios.png" style="width: 100%; height: auto" />
               </div>
               <div
                 style="
-                  text-align: center;
-                  background-color: #2a3947;
-                  height: 100%;
-                  border-radius: 16px;
-                  padding: 8px;
-                  margin-top: 8px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 16px;
                 ">
-                <div style="border-radius: 12px; overflow: hidden">
-                  <img src="img/android.png" style="width: 100%; height: auto" />
-                </div>
-                <div
-                  style="
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 16px;
-                  ">
-                  <img src="img/android_logo.png" style="width: 32px; height: 32px" />
-                  <p style="color: white; font-size: 20px; font-weight: bold">Android Scan</p>
-                </div>
+                <img src="img/ios_logo.png" style="width: 32px; height: 32px" />
+                <p style="color: white; font-size: 20px; font-weight: bold">iOS Scan</p>
+              </div>
+            </div>
+            <div
+              style="
+                text-align: center;
+                background-color: #2a3947;
+                height: 100%;
+                border-radius: 16px;
+                padding: 8px;
+                margin-top: 8px;
+              ">
+              <div style="border-radius: 12px; overflow: hidden">
+                <img src="img/android.png" style="width: 100%; height: auto" />
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 16px;
+                ">
+                <img src="img/android_logo.png" style="width: 32px; height: 32px" />
+                <p style="color: white; font-size: 20px; font-weight: bold">Android Scan</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div
-        class="container-fluid"
-        style="display: flex; align-items: center; justify-content: center; margin-bottom: 100px">
-        <a href="https://namecheap.pxf.io/c/370045/1448333/5618" target="_top" id="1448333">
-          <img
-            style="height: 160px; width: 100%; border-radius: 16px; overflow: hidden"
-            src="http://a.impactradius-go.com/display-ad/5618-1448333"
-            alt="" />
-        </a>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 24px;
+            height: 140px;
+          ">
+          <a href="https://namecheap.pxf.io/c/370045/1448333/5618" target="_top" id="1448333">
+            <img
+              style="height: 100%; width: 100%; border-radius: 16px; overflow: hidden"
+              src="http://a.impactradius-go.com/display-ad/5618-1448333"
+              alt="" />
+          </a>
+        </div>
       </div>
     </div>
   </body>

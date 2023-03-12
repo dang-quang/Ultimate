@@ -8,8 +8,8 @@
 }
 
 .topbar .container-fluid {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .content .container-fluid {
@@ -79,5 +79,4 @@ p {
   display: flex;
   width: 100%;
   max-width: 100%;
-  background-color: red;
 }
