@@ -1,4 +1,4 @@
-var appName = 'Ahorrar';
+var appName = 'Ultimate';
 var storeUrl = 'https://1.envato.market/1YaMm';
 var date = '2022-12-15';
 
